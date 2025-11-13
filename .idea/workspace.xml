@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fb53caf-a260-4c77-8b0b-77e4f8dded79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sirdarey/SortingAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/SortingAlgorithms.java" afterDir="false" />
-    </list>
+    <list default="true" id="3fb53caf-a260-4c77-8b0b-77e4f8dded79" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,9 +27,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.SortingAlgorithms.executor": "Run",
+    "Application.org.sirdarey.sorting.sorting_algorithms.SortingAlgorithms.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mac/Desktop/sirDarey/dsa_2026/src/main/java/org/sirdarey/sorting",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,9 +51,9 @@
       <recent name="org.sirdarey.sorting_algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortingAlgorithms">
-    <configuration name="SortingAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sirdarey.sorting_algorithms.SortingAlgorithms" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sirdarey.sorting_algorithms.Main" />
       <module name="dsa_2026" />
       <extension name="coverage">
         <pattern>
@@ -85,7 +80,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortingAlgorithms" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.sirdarey.sorting.sorting_algorithms.SortingAlgorithms" />
       </list>
     </recent_temporary>
@@ -107,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1762642242154</updated>
       <workItem from="1762642243238" duration="7158000" />
-      <workItem from="1763043826070" duration="8343000" />
+      <workItem from="1763043826070" duration="8671000" />
     </task>
     <servers />
   </component>
