@@ -7,7 +7,7 @@ import static org.sirdarey.sorting_algorithms.InsertionSort.insertionSort;
 import static org.sirdarey.sorting_algorithms.MergeSort.mergeSort;
 import static org.sirdarey.sorting_algorithms.SelectionSort.selectionSort;
 
-public class SortingAlgorithms {
+public class Main {
 
     public static void main(String[] args) {
 
