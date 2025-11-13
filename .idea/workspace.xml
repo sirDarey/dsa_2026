@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fb53caf-a260-4c77-8b0b-77e4f8dded79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/SortingAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/sirdarey/SortingAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/SortingAlgorithms.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,32 +24,58 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="35DQcCIgGwIQQyPsodLnMbA6SBZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SortingAlgorithms.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SortingAlgorithms.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.sirdarey.sorting_algorithms" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SortingAlgorithms">
     <configuration name="SortingAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.sirdarey.SortingAlgorithms" />
+      <option name="MAIN_CLASS_NAME" value="org.sirdarey.sorting_algorithms.SortingAlgorithms" />
       <module name="dsa_2026" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sirdarey.*" />
+          <option name="PATTERN" value="org.sirdarey.sorting_algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.sirdarey.sorting.sorting_algorithms.SortingAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sirdarey.sorting.sorting_algorithms.SortingAlgorithms" />
+      <module name="dsa_2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sirdarey.sorting.sorting_algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,6 +86,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SortingAlgorithms" />
+        <item itemvalue="Application.org.sirdarey.sorting.sorting_algorithms.SortingAlgorithms" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1762642242154</updated>
       <workItem from="1762642243238" duration="7158000" />
-      <workItem from="1763043826070" duration="7675000" />
+      <workItem from="1763043826070" duration="8343000" />
     </task>
     <servers />
   </component>
