@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fb53caf-a260-4c77-8b0b-77e4f8dded79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/BucketSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
       <updated>1762642242154</updated>
       <workItem from="1762642243238" duration="7158000" />
       <workItem from="1763043826070" duration="20428000" />
-      <workItem from="1763366413740" duration="4659000" />
+      <workItem from="1763366413740" duration="11957000" />
     </task>
     <servers />
   </component>
