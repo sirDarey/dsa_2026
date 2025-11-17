@@ -3,6 +3,7 @@ package org.sirdarey.sorting_algorithms;
 import java.util.Arrays;
 
 import static org.sirdarey.sorting_algorithms.BubbleSort.bubbleSort;
+import static org.sirdarey.sorting_algorithms.BucketSort.bucketSort;
 import static org.sirdarey.sorting_algorithms.InsertionSort.insertionSort;
 import static org.sirdarey.sorting_algorithms.MergeSort.mergeSort;
 import static org.sirdarey.sorting_algorithms.QuickSort.quickSort;
@@ -12,7 +13,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int [] array = {64, 34, 25, 90, 22, 11, 12};
+        int [] array = {7, 2, 10, 1, 6, 8, 5, 3, 4, 9};
         System.out.println("\nOriginal array: ");
         printArray(array);
 
@@ -40,6 +41,11 @@ public class Main {
         quickSort(quickSortArray, 0, quickSortArray.length - 1);
         System.out.println("Sorted array using Quick Sort: ");
         printArray(quickSortArray);
+
+        int [] bucketSortArray = Arrays.copyOf(array, array.length);
+        bucketSort(bucketSortArray);
+        System.out.println("Sorted array using Bucket Sort: ");
+        printArray(bucketSortArray);
     }
 
 
