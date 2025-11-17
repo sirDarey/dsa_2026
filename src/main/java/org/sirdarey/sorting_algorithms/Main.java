@@ -5,6 +5,7 @@ import java.util.Arrays;
 import static org.sirdarey.sorting_algorithms.BubbleSort.bubbleSort;
 import static org.sirdarey.sorting_algorithms.InsertionSort.insertionSort;
 import static org.sirdarey.sorting_algorithms.MergeSort.mergeSort;
+import static org.sirdarey.sorting_algorithms.QuickSort.quickSort;
 import static org.sirdarey.sorting_algorithms.SelectionSort.selectionSort;
 
 public class Main {
@@ -34,6 +35,11 @@ public class Main {
         mergeSort(mergeSortArray, 0, mergeSortArray.length - 1);
         System.out.println("Sorted array using Merge Sort: ");
         printArray(mergeSortArray);
+
+        int [] quickSortArray = Arrays.copyOf(array, array.length);
+        quickSort(quickSortArray, 0, quickSortArray.length - 1);
+        System.out.println("Sorted array using Quick Sort: ");
+        printArray(quickSortArray);
     }
 
 

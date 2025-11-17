@@ -2,60 +2,41 @@ package org.sirdarey.sorting_algorithms;
 
 public class QuickSort {
 
-    public static void mergeSort(int[] mergeSortArray, int left, int right) {
+    public static void quickSort(int[] quickSortArray, int left, int right) {
         /*
          * 1. Divide and Conquer
-         * 2. Time Complexity: O(n log n); Space Complexity: O(n)
-         * 3. Stable
+         * 2. Find a pivot, move all smaller elements to the left and higher elements, right.
+         * 3. Time Complexity: O(n log n); Space Complexity: O(log n) -> Recursive call stack
+         * 4. Not Stable
          */
         if (left >= right) return;
 
-        int mid = left + (right - left) / 2;
+        //Find pivot
+        int pivot = partition(quickSortArray, left, right);
 
-        // Recursively sort first and second halves
-        mergeSort(mergeSortArray, left, mid);
-        mergeSort(mergeSortArray, mid + 1, right);
-
-        // Merge the sorted halves
-        merge(mergeSortArray, left, mid, right);
+        // Recursively do quick sort on left and right partitions
+        quickSort(quickSortArray, left, pivot-1);
+        quickSort(quickSortArray, pivot+1, right);
     }
 
-    private static void merge(int[] mergeSortArray, int left, int mid, int right) {
-        // Find sizes of two subarrays to be merged
-        int n1 = mid - left + 1;
-        int n2 = right - mid;
+    private static int partition (int[] quickSortArray, int left, int right) {
 
-        // Create temp arrays
-        int[] L = new int[n1];
-        int[] R = new int[n2];
+        // pivot is most times set to the right element
+        int pivot = quickSortArray[right];
 
-        // Copy data to temp arrays
-        System.arraycopy(mergeSortArray, left, L, 0, n1);
-        System.arraycopy(mergeSortArray, mid + 1, R, 0, n2);
-
-        // Merge the temp arrays
-
-        // Initial indexes of first and second subarrays
-        int p = 0, q = 0;
-
-        // Initial index of merged subarray
-        int k = left;
-        while (p < n1 && q < n2) {
-            if (L[p] <= R[q]) {
-                mergeSortArray[k++] = L[p++];
-            } else {
-                mergeSortArray[k++] = R[q++];
+        int i = left-1;
+        for (int j=left; j<right; j++){
+            if (quickSortArray[j] < pivot) {
+                swap(quickSortArray, ++i, j);
             }
         }
+        swap(quickSortArray, ++i, right);
+        return i;
+    }
 
-        // Copy remaining elements of L[] if any
-        while (p < n1) {
-            mergeSortArray[k++] = L[p++];
-        }
-
-        // Copy remaining elements of R[] if any
-        while (q < n2) {
-            mergeSortArray[k++] = R[q++];
-        }
+    private static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 }
