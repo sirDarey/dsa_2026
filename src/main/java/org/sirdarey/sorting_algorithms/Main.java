@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import static org.sirdarey.sorting_algorithms.BubbleSort.bubbleSort;
 import static org.sirdarey.sorting_algorithms.BucketSort.bucketSort;
+import static org.sirdarey.sorting_algorithms.HeapSort.heapSort;
 import static org.sirdarey.sorting_algorithms.InsertionSort.insertionSort;
 import static org.sirdarey.sorting_algorithms.MergeSort.mergeSort;
 import static org.sirdarey.sorting_algorithms.QuickSort.quickSort;
@@ -46,6 +47,11 @@ public class Main {
         bucketSort(bucketSortArray);
         System.out.println("Sorted array using Bucket Sort: ");
         printArray(bucketSortArray);
+
+        int [] heapSortArray = Arrays.copyOf(array, array.length);
+        heapSort(heapSortArray);
+        System.out.println("Sorted array using Heap Sort: ");
+        printArray(heapSortArray);
     }
 
 
@@ -57,3 +63,9 @@ public class Main {
         System.out.println("-----------------------");
     }
 }
+
+/*
+ * 	•	Counting Sort
+ * 	•	Radix Sort
+ * 	•	Shell Sort
+ */

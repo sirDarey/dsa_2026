@@ -5,14 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fb53caf-a260-4c77-8b0b-77e4f8dded79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/custom_algorithms/CheckAPrimeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting_algorithms/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,26 +34,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortingAlgorithms.executor&quot;: &quot;Run&quot;,
-    &quot;Application.org.sirdarey.sorting.sorting_algorithms.SortingAlgorithms.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mac/Desktop/sirDarey/dsa_2026/src/main/java/org/sirdarey/sorting&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CheckAPrimeNumber.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SortingAlgorithms.executor": "Run",
+    "Application.org.sirdarey.sorting.sorting_algorithms.SortingAlgorithms.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "heap-sort",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/mac/Desktop/sirDarey/dsa_2026",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/sirdarey/sorting" />
@@ -56,7 +63,20 @@
       <recent name="org.sirdarey.sorting_algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.CheckAPrimeNumber">
+    <configuration name="CheckAPrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.sirdarey.custom_algorithms.CheckAPrimeNumber" />
+      <module name="dsa_2026" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sirdarey.custom_algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.sirdarey.sorting_algorithms.Main" />
       <module name="dsa_2026" />
@@ -85,6 +105,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckAPrimeNumber" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.sirdarey.sorting.sorting_algorithms.SortingAlgorithms" />
       </list>
@@ -108,7 +129,25 @@
       <updated>1762642242154</updated>
       <workItem from="1762642243238" duration="7158000" />
       <workItem from="1763043826070" duration="20428000" />
-      <workItem from="1763366413740" duration="11957000" />
+      <workItem from="1763366413740" duration="26339000" />
+      <workItem from="1763630298142" duration="5855000" />
+      <workItem from="1763851101357" duration="609000" />
+      <workItem from="1763978971919" duration="7382000" />
+      <workItem from="1764471617358" duration="184000" />
+      <workItem from="1764526420325" duration="598000" />
+      <workItem from="1764576287161" duration="615000" />
+      <workItem from="1764591188658" duration="1202000" />
+      <workItem from="1764662928177" duration="15000" />
+      <workItem from="1764691140913" duration="2828000" />
+      <workItem from="1764747635081" duration="3420000" />
+      <workItem from="1764860844369" duration="607000" />
+      <workItem from="1764948230472" duration="599000" />
+      <workItem from="1764950521298" duration="597000" />
+      <workItem from="1765012733438" duration="1273000" />
+      <workItem from="1765021868504" duration="4000" />
+      <workItem from="1765021896642" duration="19000" />
+      <workItem from="1765021930751" duration="152000" />
+      <workItem from="1775375683663" duration="3308000" />
     </task>
     <servers />
   </component>
